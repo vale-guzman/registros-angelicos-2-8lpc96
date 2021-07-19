@@ -1,0 +1,12 @@
+body {
+  height: 80vh;
+  background-color: #ffdd90;
+  background-image: url("https://cafedebrida.com/wp-content/uploads/2019/09/maxresdefault-5.jpg");
+  background-size: cover;
+}
+.botones{
+  
+    vertical-align: middle;
+  text-align:center;
+
+}

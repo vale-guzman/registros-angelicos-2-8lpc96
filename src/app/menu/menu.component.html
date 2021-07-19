@@ -1,0 +1,26 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+  <nav class="navbar navbar-light bg-ligth text-white">
+    Registros Angélicos
+  </nav>
+  <div class="collapse navbar-collapse show" id="navbarSupportedContent" [ngClass]="{ 'show': navbarOpen }">
+    <ul  class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['inicio']">Inicio <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['numerologia']" title="Calcular Numerología">Numerología</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['angeles-regentes']" title="Ver Ángeles Regentes">Angeles Regentes</a>
+      </li>
+
+    </ul>
+    <ul class="navbar-nav">
+
+      <li class="nav-item"><a class="nav-link" href="">Por Euge Marconetti</a></li>
+    </ul>
+
+  </div>
+</nav>
+

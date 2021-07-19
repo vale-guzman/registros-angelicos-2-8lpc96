@@ -1,0 +1,9 @@
+div {
+  height: 80vh;
+  background-color: hsl(42, 100%, 78%);
+  background-image: url("https://cafedebrida.com/wp-content/uploads/2019/09/maxresdefault-5.jpg");
+  background-size: cover; 
+  font-family: "Papyrus";
+  text-shadow: 2px 2px 5px rgba(25, 229, 236, 0.973);
+  font-size: 28px;
+}

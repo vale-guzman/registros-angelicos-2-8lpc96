@@ -1,0 +1,11 @@
+/* <div class="image" style="height: 100vh;width:100vw;" [ngStyle]="{'background': 'url(https://cafedebrida.com/wp-content/uploads/2019/09/maxresdefault-5.jpg) no-repeat 0 0'}">
+</div> */
+
+body {
+  height: 80vh; 
+  background-color: #ffdd90;
+  background-image: url("https://cafedebrida.com/wp-content/uploads/2019/09/maxresdefault-5.jpg"); 
+  background-size: cover;
+  text-shadow: 2px 2px 5px rgba(25, 229, 236, 0.973);
+  font-size: 28px;
+}

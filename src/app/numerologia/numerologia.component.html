@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Numerología</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+</head>
+
+
+<body>
+<h3 title="HOLA!! Buenos días, Buenas Tardes, Buenas Noches"> Ingrese su fecha de Nacimiento: </h3>
+<form name="FormRegistro" formGroup="FormRegistro">
+
+  <!-- Campo Día de Nacimiento -->
+  <div class="form-group row" >
+
+    <label class="col-form-label col-sm-2 "  for="diaNac">
+    Día: <span class="text-danger">*</span>
+    </label>
+
+    <div class="col-sm-12">
+      <input type="number" class="form-control" id="diaNac" name="diaNac"[(ngModel)]="diaNac">
+    </div>
+  </div>
+
+   <!-- Campo Mes de Nacimiento -->
+   <div class="form-group row">
+
+   <label class="col-form-label col-sm-2 " for="mesNac">
+   Mes: <span class="text-danger" >*</span>
+   </label>
+   <div class="col-sm-12">
+    <select  id="mesNac" name="mesNac" class="form-control" [(ngModel)]="selectedMes">
+    <option *ngFor="let opt of comboMes " [ngValue]="opt.mesNac">
+            ‌{{opt.nombreMes }}
+          </option>
+
+    </select>
+   </div>
+ </div>
+
+  <!-- Campo Año de Nacimiento -->
+  <div class="form-group row">
+    <label class="col-form-label col-sm-2 " for="yearNac">
+    Año: <span class="text-danger" >*</span>
+    </label>
+    <div class="col-sm-12">
+      <input type="number" class="form-control" id="yearNac" name="yearNac" [(ngModel)]="yearNac">
+    </div>
+  </div>
+
+  <!-- Botones -->
+  <div class="form-group " class="botones" >
+  <button type="button" class="btn btn-info col-md-3 col-sm-6 " 
+  (click)="CalcularNumeroTotal()" title="El N° de Vida corresponde a la Fecha de Nacimiento del consultante">Calcular N° de Vida</button> 
+  &nbsp;
+  <!-- <div class="col-sm-3">
+    <label class="col-form-label " id="lblNroVida"> El N° de Vida es:  </label>
+  </div>  -->
+  &nbsp;
+    <button type="button" class="btn btn-warning col-md-3 col-sm-6 align"
+     (click)="CalcularNumeroTotal()" title="El N° de Tránsito corresponde a la Fecha de Cumpleaños del año Actual" >Calcular N° de Tránsito</button>
+     <!-- <div class="col-sm-3">   
+     &nbsp;
+  <label id="lblNroVida"> El N° de Tránsito es:</label>
+     </div> -->
+</div> 
+
+
+</form>
+
+
+
+    
+</body>
+
+</html>
