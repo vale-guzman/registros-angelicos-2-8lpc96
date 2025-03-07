@@ -1,13 +1,16 @@
 # Registros-Angélicos
-## Lectura de Registros Akáshicos
+# 🌟 Lectura de Registros Akáshicos
 
-Este proyecto está diseñado para facilitar la lectura y consulta de los Registros Akáshicos, una biblioteca energética que se cree contiene la información del alma de cada individuo, incluyendo experiencias pasadas, presentes y futuras potenciales. A través de una interfaz intuitiva, los usuarios pueden ingresar datos y obtener reportes basados en fechas específicas.
+Los Registros Akáshicos son conocidos como una biblioteca energética que resguarda la información del alma de cada individuo, incluyendo experiencias pasadas, presentes y futuras potenciales. Este proyecto tiene como objetivo facilitar su consulta a través de una plataforma intuitiva, permitiendo a los usuarios ingresar datos y generar reportes personalizados según las fechas proporcionadas.
 
-## Características principales
+---
 
-### Ingreso de datos: Los usuarios pueden registrar información relevante para la consulta de sus Registros Akáshicos.
+## ✨ Características principales
 
-### Generación de reportes: El sistema genera reportes personalizados según las fechas ingresadas en los formularios.
+✔ **Ingreso de datos**: Permite registrar información relevante para la consulta de los Registros Akáshicos.
 
-### Interfaz amigable: Diseñado para ser accesible y fácil de usar.
+📊 **Generación de reportes**: El sistema genera reportes personalizados basados en las fechas ingresadas en los formularios.
+
+🖥 **Interfaz amigable**: Diseño intuitivo y accesible para un
+
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/registros-angelicos-2-8lpc96)
