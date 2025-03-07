@@ -11,6 +11,6 @@ Los Registros Akáshicos son conocidos como una biblioteca energética que resgu
 
 📊 **Generación de reportes**: El sistema genera reportes personalizados basados en las fechas ingresadas en los formularios.
 
-🖥 **Interfaz amigable**: Diseño intuitivo y accesible para un
+🖥 **Interfaz amigable**: Diseño intuitivo y accesible para una mejor experiencia de usuario.
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/registros-angelicos-2-8lpc96)
+Disponible Online en: [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/registros-angelicos-2-8lpc96)
